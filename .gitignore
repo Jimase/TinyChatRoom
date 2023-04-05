@@ -1,0 +1,9 @@
+# 忽略以下文件/文件夹
+.DS_Store
+.idea/
+.git/
+
+
+src/LinuxTermRoom/Client
+src/LinuxTermRoom/Server
+src/WindowsTermRoom/Server
