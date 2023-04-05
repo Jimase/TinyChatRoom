@@ -110,7 +110,7 @@ int main()
     }
 
     //////////////// get client name ////////////////
-    printf("Welcome to Use Multi-Person Chat room!\n");
+    printf("Welcome to Use TinyChatroom!\n");
     while (1)
     {
         printf("Please enter your name: ");
