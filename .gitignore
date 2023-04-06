@@ -3,6 +3,7 @@
 .idea/
 .git/
 
+cmake-build-debug
 
 src/LinuxTermRoom/Client
 src/LinuxTermRoom/Server
