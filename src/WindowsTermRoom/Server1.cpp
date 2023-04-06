@@ -60,8 +60,10 @@ unsigned __stdcall handle_send(void *data) {
     return 0;
 }
 
-void handle_recv(void *data) {
-    struct Client *pipe = (struct Client *)data;
+
+
+unsigned int handle_recv(void* args)  {
+    struct Client *pipe = (struct Client *)args;
     string message_buffer;
     int message_len = 0;
     char buffer[BUFFER_LEN + 1];
